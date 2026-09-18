@@ -1,0 +1,155 @@
+/* =========================================================
+   GameZone - Desarrollo Frontend I (PFY2201) - Semana 6
+   Bootstrap 5 + JavaScript + Fetch API
+   ========================================================= */
+
+:root {
+    --gamezone-primary: #4f46e5;
+    --gamezone-primary-dark: #3730a3;
+    --gamezone-dark: #1b1b2f;
+    --gamezone-dark-secondary: #252545;
+    --gamezone-light: #f4f4f7;
+    --gamezone-white: #ffffff;
+    --gamezone-border: #d7d7df;
+    --gamezone-success: #146c43;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+body {
+    background-color: var(--gamezone-light);
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-gamezone {
+    background-color: var(--gamezone-dark);
+    color: var(--gamezone-white);
+    border-bottom: 4px solid var(--gamezone-primary);
+}
+
+.bg-gamezone {
+    background-color: var(--gamezone-dark-secondary);
+}
+
+.navbar {
+    border-bottom: 2px solid var(--gamezone-primary);
+}
+
+.navbar-brand {
+    font-size: 1.35rem;
+}
+
+.navbar .nav-link {
+    border-radius: 0.375rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus-visible {
+    color: var(--gamezone-dark);
+    background-color: #c7d2fe;
+}
+
+.carousel {
+    background-color: var(--gamezone-dark);
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 9 / 5;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    right: 8%;
+    left: 8%;
+    padding: 1rem;
+    background-color: rgb(27 27 47 / 78%);
+    border-radius: 0.5rem;
+}
+
+.carousel-caption h3 {
+    font-size: 1.5rem;
+}
+
+.product-card {
+    overflow: hidden;
+    border: 1px solid var(--gamezone-border);
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 12%);
+}
+
+.product-card .card-title {
+    font-size: 1.25rem;
+}
+
+.product-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.mensaje-carrito {
+    min-height: 1.5rem;
+    color: var(--gamezone-success);
+    font-weight: 700;
+}
+
+.modal-product-image {
+    width: 100%;
+    max-height: 280px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--gamezone-primary);
+    --bs-btn-border-color: var(--gamezone-primary);
+    --bs-btn-hover-bg: var(--gamezone-primary-dark);
+    --bs-btn-hover-border-color: var(--gamezone-primary-dark);
+    --bs-btn-focus-shadow-rgb: 79, 70, 229;
+}
+
+.footer-gamezone {
+    background-color: var(--gamezone-dark);
+    border-top: 4px solid var(--gamezone-primary);
+}
+
+.footer-gamezone h2 {
+    font-size: 1.1rem;
+}
+
+.footer-link {
+    color: var(--gamezone-white);
+}
+
+.footer-link:hover,
+.footer-link:focus-visible {
+    color: #c7d2fe;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 3px solid #c7d2fe;
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .product-card {
+        transition: none;
+    }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Minecraft",
+    "categoria": "Aventura",
+    "precio": 29990,
+    "imagen": "assets/img/minecraft.jpg",
+    "descripcion": "Videojuego sandbox de mundo abierto donde puedes explorar, construir y sobrevivir en mundos generados por bloques."
+  },
+  {
+    "id": 2,
+    "nombre": "Forza Horizon 5",
+    "categoria": "Carreras",
+    "precio": 39990,
+    "imagen": "assets/img/forza-horizon-5.jpg",
+    "descripcion": "Juego de carreras de mundo abierto ambientado en México, con cientos de vehículos y eventos competitivos."
+  },
+  {
+    "id": 3,
+    "nombre": "EA SPORTS FC 26",
+    "categoria": "Deportes",
+    "precio": 49990,
+    "imagen": "assets/img/ea-sports-fc-26.jpg",
+    "descripcion": "Videojuego de fútbol con clubes, selecciones y jugadores reconocidos de distintas competiciones."
+  }
+]

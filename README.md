@@ -142,4 +142,9 @@ El proyecto se entrega con la estructura solicitada para la Semana 6, incluyendo
 - repositorio público en GitHub;
 - despliegue mediante `gh-pages`.
 
-Los enlaces del repositorio y del despliegue público se incorporarán al momento de realizar la publicación final.
+## Publicación
+
+- Repositorio público: https://github.com/frankcoral/frontend-semana-6
+- GitHub Pages: https://frankcoral.github.io/frontend-semana-6/
+
+El proyecto fue publicado en GitHub y desplegado mediante la rama `gh-pages`.
